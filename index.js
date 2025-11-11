@@ -73,16 +73,17 @@ async function run() {
 
     app.patch("/books/:id", async (req, res) => {
       const id = req.params.id;
-      const updatedProduct = req.body;
+      const updatedBook = req.body;
       const query = { _id: new ObjectId(id) };
-      const update = {
-        $set: {
-          name: updatedProduct.name,
-          price: updatedProduct.price,
-        },
-      };
-      const result = await booksCollection.updateOne(query, update);
-      res.send(result);
+
+      try {
+        const result = await booksCollection.updateOne(query, {
+          $set: updatedBook,
+        });
+        res.json({ success: result.modifiedCount > 0 });
+      } catch (err) {
+        res.status(500).json({ success: false, message: err.message });
+      }
     });
 
     app.delete("/books/:id", async (req, res) => {
@@ -92,7 +93,6 @@ async function run() {
           _id: new ObjectId(id),
         });
         res.json({ success: result.deletedCount > 0 });
-        kina;
       } catch (err) {
         res.status(500).json({ success: false, message: err.message });
       }
