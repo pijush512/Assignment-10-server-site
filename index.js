@@ -51,10 +51,17 @@ async function run() {
       }
     });
 
+    app.get("/myBooks/:email", async (req, res) => {
+      const email = req.params.email;
+      const books = await booksCollection.find({ userEmail: email }).toArray();
+      res.send(books);
+    });
+
     app.get("/books/:id", async (req, res) => {
       const id = req.params.id;
       const query = { _id: new ObjectId(id) };
       const result = await booksCollection.findOne(query);
+      // const result = await booksCollection.findOne({ _id: id });
       res.send(result);
     });
 
