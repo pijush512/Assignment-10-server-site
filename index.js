@@ -86,10 +86,16 @@ async function run() {
     });
 
     app.delete("/books/:id", async (req, res) => {
-      const id = req.params.id;
-      const query = { _id: new ObjectId(id) };
-      const result = await booksCollection.deleteOne(query);
-      res.send(result);
+      try {
+        const id = req.params.id;
+        const result = await booksCollection.deleteOne({
+          _id: new ObjectId(id),
+        });
+        res.json({ success: result.deletedCount > 0 });
+        kina;
+      } catch (err) {
+        res.status(500).json({ success: false, message: err.message });
+      }
     });
 
     await client.db("admin").command({ ping: 1 });
