@@ -1,0 +1,202 @@
+[
+  {
+    "_id": "672f001a1a001",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Classic",
+    "rating": 4.8,
+    "summary": "A tragic story of love and ambition set in the roaring twenties.",
+    "coverImage": "https://i.ibb.co/ZxsrkQn/book1.jpg",
+    "userEmail": "user1@gmail.com"
+  },
+  {
+    "_id": "672f001a1a002",
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Drama",
+    "rating": 4.9,
+    "summary": "A timeless tale about justice, race, and growing up in the South.",
+    "coverImage": "https://i.ibb.co/s9T3YkL/book2.jpg",
+    "userEmail": "user2@gmail.com"
+  },
+  {
+    "_id": "672f001a1a003",
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Dystopian",
+    "rating": 4.7,
+    "summary": "A chilling portrayal of a totalitarian society under surveillance.",
+    "coverImage": "https://i.ibb.co/2N6sd6v/book3.jpg",
+    "userEmail": "user3@gmail.com"
+  },
+  {
+    "_id": "672f001a1a004",
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "rating": 4.9,
+    "summary": "Bilbo Baggins embarks on an unexpected adventure filled with magic.",
+    "coverImage": "https://i.ibb.co/Fg8V3Qf/book4.jpg",
+    "userEmail": "user4@gmail.com"
+  },
+  {
+    "_id": "672f001a1a005",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "Romance",
+    "rating": 4.6,
+    "summary": "A witty and romantic tale of love and societal expectations.",
+    "coverImage": "https://i.ibb.co/RyTFM6p/book5.jpg",
+    "userEmail": "user5@gmail.com"
+  },
+  {
+    "_id": "672f001a1a006",
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": "Adventure",
+    "rating": 4.8,
+    "summary": "A young shepherd’s journey to find his personal legend.",
+    "coverImage": "https://i.ibb.co/bNjt2Cb/book6.jpg",
+    "userEmail": "user6@gmail.com"
+  },
+  {
+    "_id": "672f001a1a007",
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "genre": "Fiction",
+    "rating": 4.5,
+    "summary": "A rebellious teenager’s perspective on the adult world.",
+    "coverImage": "https://i.ibb.co/4tCJz0K/book7.jpg",
+    "userEmail": "user7@gmail.com"
+  },
+  {
+    "_id": "672f001a1a008",
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "genre": "Science Fiction",
+    "rating": 4.6,
+    "summary": "A futuristic society built on technology, control, and pleasure.",
+    "coverImage": "https://i.ibb.co/KX8xHJW/book8.jpg",
+    "userEmail": "user8@gmail.com"
+  },
+  {
+    "_id": "672f001a1a009",
+    "title": "The Little Prince",
+    "author": "Antoine de Saint-Exupéry",
+    "genre": "Children’s Literature",
+    "rating": 4.9,
+    "summary": "A poetic story about love, loneliness, and the human heart.",
+    "coverImage": "https://i.ibb.co/F3TnKfC/book9.jpg",
+    "userEmail": "user9@gmail.com"
+  },
+  {
+    "_id": "672f001a1a010",
+    "title": "Harry Potter and the Sorcerer’s Stone",
+    "author": "J.K. Rowling",
+    "genre": "Fantasy",
+    "rating": 5.0,
+    "summary": "The beginning of a magical adventure at Hogwarts.",
+    "coverImage": "https://i.ibb.co/ZBfhMdw/book10.jpg",
+    "userEmail": "user10@gmail.com"
+  },
+  {
+    "_id": "672f001a1a011",
+    "title": "The Fault in Our Stars",
+    "author": "John Green",
+    "genre": "Romance",
+    "rating": 4.7,
+    "summary": "A heartwarming and heartbreaking story of young love and loss.",
+    "coverImage": "https://i.ibb.co/WzQynhL/book11.jpg",
+    "userEmail": "user11@gmail.com"
+  },
+  {
+    "_id": "672f001a1a012",
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "genre": "Adventure",
+    "rating": 4.8,
+    "summary": "A thrilling tale of survival and rebellion in a dystopian world.",
+    "coverImage": "https://i.ibb.co/ftc2Ch2/book12.jpg",
+    "userEmail": "user12@gmail.com"
+  },
+  {
+    "_id": "672f001a1a013",
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "genre": "Self-Help",
+    "rating": 4.9,
+    "summary": "A practical guide to building good habits and breaking bad ones.",
+    "coverImage": "https://i.ibb.co/mJRYZ6H/book13.jpg",
+    "userEmail": "user13@gmail.com"
+  },
+  {
+    "_id": "672f001a1a014",
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert Kiyosaki",
+    "genre": "Finance",
+    "rating": 4.7,
+    "summary": "A powerful comparison of two financial mindsets and their outcomes.",
+    "coverImage": "https://i.ibb.co/6YmjZrT/book14.jpg",
+    "userEmail": "user14@gmail.com"
+  },
+  {
+    "_id": "672f001a1a015",
+    "title": "Think and Grow Rich",
+    "author": "Napoleon Hill",
+    "genre": "Motivational",
+    "rating": 4.6,
+    "summary": "A timeless classic on mindset and success principles.",
+    "coverImage": "https://i.ibb.co/ChYbppC/book15.jpg",
+    "userEmail": "user15@gmail.com"
+  },
+  {
+    "_id": "672f001a1a016",
+    "title": "The Subtle Art of Not Giving a F*ck",
+    "author": "Mark Manson",
+    "genre": "Self-Help",
+    "rating": 4.5,
+    "summary": "A brutally honest approach to living a good life.",
+    "coverImage": "https://i.ibb.co/N15GZny/book16.jpg",
+    "userEmail": "user16@gmail.com"
+  },
+  {
+    "_id": "672f001a1a017",
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "genre": "Finance",
+    "rating": 4.8,
+    "summary": "Understanding the human side of money and wealth building.",
+    "coverImage": "https://i.ibb.co/Rpxz3LD/book17.jpg",
+    "userEmail": "user17@gmail.com"
+  },
+  {
+    "_id": "672f001a1a018",
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "genre": "History",
+    "rating": 4.9,
+    "summary": "An exploration of humanity’s evolution and progress.",
+    "coverImage": "https://i.ibb.co/Z6gXqXR/book18.jpg",
+    "userEmail": "user18@gmail.com"
+  },
+  {
+    "_id": "672f001a1a019",
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "genre": "Fantasy",
+    "rating": 4.6,
+    "summary": "A woman discovers alternate lives she could have lived.",
+    "coverImage": "https://i.ibb.co/xqFd9jL/book19.jpg",
+    "userEmail": "user19@gmail.com"
+  },
+  {
+    "_id": "672f001a1a020",
+    "title": "The Power of Now",
+    "author": "Eckhart Tolle",
+    "genre": "Spiritual",
+    "rating": 4.8,
+    "summary": "A guide to mindfulness and living in the present moment.",
+    "coverImage": "https://i.ibb.co/BP7nYHh/book20.jpg",
+    "userEmail": "user20@gmail.com"
+  }
+]
