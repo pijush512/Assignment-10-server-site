@@ -61,7 +61,6 @@ async function run() {
       const id = req.params.id;
       const query = { _id: new ObjectId(id) };
       const result = await booksCollection.findOne(query);
-      // const result = await booksCollection.findOne({ _id: id });
       res.send(result);
     });
 
@@ -112,7 +111,3 @@ run().catch(console.dir);
 app.listen(port, () => {
   console.log(`My server is running on port: ${port}`);
 });
-
-// assignmentDb
-
-// CfaZq5nM93rE1D0S
